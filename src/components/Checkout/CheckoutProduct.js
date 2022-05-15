@@ -2,7 +2,7 @@ import React from "react";
 import { useStateValue } from "../../StateProvider";
 import "./CheckoutProduct.css";
 
-function CheckoutPrdocut({ id, image, title, price, rating }) {
+function CheckoutProduct({ id, image, title, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const removeFromBasket = () => {
@@ -35,4 +35,4 @@ function CheckoutPrdocut({ id, image, title, price, rating }) {
   );
 }
 
-export default CheckoutPrdocut;
+export default CheckoutProduct;
