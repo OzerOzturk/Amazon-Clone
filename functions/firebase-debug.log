@@ -1,0 +1,309 @@
+[debug] [2022-05-21T14:37:02.449Z] ----------------------------------------------------------------------
+[debug] [2022-05-21T14:37:02.451Z] Command:       /home/ozer/.nvm/versions/node/v16.14.2/bin/node /home/ozer/.nvm/versions/node/v16.14.2/bin/firebase emulators:start
+[debug] [2022-05-21T14:37:02.451Z] CLI Version:   10.9.2
+[debug] [2022-05-21T14:37:02.451Z] Platform:      linux
+[debug] [2022-05-21T14:37:02.451Z] Node Version:  v16.14.2
+[debug] [2022-05-21T14:37:02.452Z] Time:          Sat May 21 2022 17:37:02 GMT+0300 (GMT+03:00)
+[debug] [2022-05-21T14:37:02.452Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-21T14:37:02.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-21T14:37:02.504Z] > authorizing via signed-in user (ozerozturk1636@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project amaznclone2022. This may result in unexpected behavior. 
+[debug] [2022-05-21T14:37:02.514Z] [hub] writing locator at /tmp/hub-amaznclone2022.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] ✔  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-21T14:37:02.528Z] defaultcredentials: writing to file /home/ozer/.config/firebase/ozerozturk1636_gmail_com_application_default_credentials.json
+[debug] [2022-05-21T14:37:02.529Z] Setting GAC to /home/ozer/.config/firebase/ozerozturk1636_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/ozer/.config/firebase/ozerozturk1636_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-21T14:37:02.531Z] > refreshing access token with scopes: []
+[debug] [2022-05-21T14:37:02.532Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-21T14:37:02.761Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 21 May 2022 14:37:02 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-21T14:37:02.782Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/amaznclone2022/adminSdkConfig [none]
+[debug] [2022-05-21T14:37:03.178Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/amaznclone2022/adminSdkConfig 200
+[debug] [2022-05-21T14:37:03.178Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/amaznclone2022/adminSdkConfig {"projectId":"amaznclone2022","storageBucket":"amaznclone2022.appspot.com"}
+[debug] [2022-05-21T14:37:03.198Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/amaznclone2022/sites 
+[debug] [2022-05-21T14:37:04.659Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/amaznclone2022/sites 200
+[debug] [2022-05-21T14:37:04.659Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/amaznclone2022/sites {"sites":[{"name":"projects/amaznclone2022/sites/amaznclone2022","defaultUrl":"https://amaznclone2022.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-21T14:37:04.660Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/amaznclone2022/webApps/-/config [none]
+[debug] [2022-05-21T14:37:05.441Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/amaznclone2022/webApps/-/config 200
+[debug] [2022-05-21T14:37:05.441Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/amaznclone2022/webApps/-/config {"projectId":"amaznclone2022","appId":"1:235045523680:web:c15f9c0cba00c931614085","storageBucket":"amaznclone2022.appspot.com","apiKey":"AIzaSyAe56Tipsj4Md0-mYApP-y2g2ono4Tp8YM","authDomain":"amaznclone2022.firebaseapp.com","messagingSenderId":"235045523680"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-05-21T14:37:05.462Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-21T14:37:05.462Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-21T14:37:05.462Z] Starting Emulator UI with command {"binary":"node","args":["/home/ozer/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/ozer/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-21T14:37:05.555Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[info] i  functions: Watching "/home/ozer/web-dev-project/amazon-clone-app/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/ozer/web-dev-project/amazon-clone-app/functions\" for Cloud Functions..."}}
+[debug] [2022-05-21T14:37:05.736Z] Validating nodejs source
+[debug] [2022-05-21T14:37:06.723Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-21T14:37:06.723Z] Building nodejs source
+[debug] [2022-05-21T14:37:06.723Z] Analyzing nodejs backend spec
+[debug] [2022-05-21T14:37:06.724Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-05-21T14:37:06.824Z] Serving at port 9005
+
+[debug] [2022-05-21T14:37:06.894Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-05-21T14:37:06.900Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/amaznclone2022/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/amaznclone2022/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-21T14:37:54.575Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-21T14:37:54.575Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-21T14:37:54.576Z] Accepted request GET /amaznclone2022/us-central1/api/payment/create?total=22799 --> us-central1-api
+[debug] [2022-05-21T14:37:54.585Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-21T14:37:54.585Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-21T14:37:54.586Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-21T14:37:54.586Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:37:54.587Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY"}}
+[debug] [2022-05-21T14:37:55.291Z] [runtime-status] [7221] Functions runtime initialized. {"cwd":"/home/ozer/web-dev-project/amazon-clone-app/functions","node_version":"16.14.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Functions runtime initialized. {\"cwd\":\"/home/ozer/web-dev-project/amazon-clone-app/functions\",\"node_version\":\"16.14.2\"}"}}
+[debug] [2022-05-21T14:37:55.292Z] [runtime-status] [7221] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Disabled runtime features: undefined"}}
+[debug] [2022-05-21T14:37:55.294Z] [runtime-status] [7221] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-21T14:37:55.296Z] [runtime-status] [7221] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:37:55.296Z] [runtime-status] [7221] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-21T14:37:55.298Z] [runtime-status] [7221] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:37:55.330Z] [runtime-status] [7221] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-21T14:37:55.330Z] [runtime-status] [7221] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-05-21T14:37:55.331Z] [runtime-status] [7221] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:37:55.332Z] [runtime-status] [7221] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-21T14:37:55.332Z] [runtime-status] [7221] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:37:55.333Z] [runtime-status] [7221] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-05-21T14:37:55.400Z] [runtime-status] [7221] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-21T14:37:55.401Z] [runtime-status] [7221] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Running api in signature http"}}
+[debug] [2022-05-21T14:37:55.403Z] [runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:37:55.406Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-21T14:37:55.407Z] [functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=22799, mapping to path=/payment/create?total=22799 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=22799, mapping to path=/payment/create?total=22799"}}
+[debug] [2022-05-21T14:37:55.412Z] [runtime-status] [7221] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server handling GET request"}}
+[debug] [2022-05-21T14:37:55.418Z] [runtime-status] [7221] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-21T14:37:55.419Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE"}}
+[debug] [2022-05-21T14:37:55.419Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-21T14:38:10.126Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-21T14:38:10.127Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-21T14:38:10.128Z] Accepted request GET /amaznclone2022/us-central1/api/payment/create?total=22799 --> us-central1-api
+[debug] [2022-05-21T14:38:10.129Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-21T14:38:10.129Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:38:10.129Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY"}}
+[debug] [2022-05-21T14:38:10.132Z] [runtime-status] [7221] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-21T14:38:10.133Z] [runtime-status] [7221] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Running api in signature http"}}
+[debug] [2022-05-21T14:38:10.134Z] [runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:38:10.137Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-21T14:38:10.138Z] [functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=22799, mapping to path=/payment/create?total=22799 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=22799, mapping to path=/payment/create?total=22799"}}
+[debug] [2022-05-21T14:38:10.144Z] [runtime-status] [7221] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server handling GET request"}}
+[debug] [2022-05-21T14:38:10.145Z] [runtime-status] [7221] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-21T14:38:10.146Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE"}}
+[debug] [2022-05-21T14:38:10.146Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-21T14:38:28.959Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-21T14:38:28.960Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-21T14:38:28.960Z] Accepted request GET /amaznclone2022/us-central1/api/payment/create?total=22799 --> us-central1-api
+[debug] [2022-05-21T14:38:28.960Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-21T14:38:28.960Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:38:28.960Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY"}}
+[debug] [2022-05-21T14:38:28.963Z] [runtime-status] [7221] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-21T14:38:28.964Z] [runtime-status] [7221] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Running api in signature http"}}
+[debug] [2022-05-21T14:38:28.965Z] [runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:38:28.966Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-21T14:38:28.966Z] [functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=22799, mapping to path=/payment/create?total=22799 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=22799, mapping to path=/payment/create?total=22799"}}
+[debug] [2022-05-21T14:38:28.969Z] [runtime-status] [7221] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server handling GET request"}}
+[debug] [2022-05-21T14:38:28.972Z] [runtime-status] [7221] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-21T14:38:28.973Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE"}}
+[debug] [2022-05-21T14:38:28.973Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-21T14:42:40.750Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-21T14:42:40.750Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-21T14:42:40.750Z] Accepted request GET /amaznclone2022/us-central1/api/payment/create?total=69798 --> us-central1-api
+[debug] [2022-05-21T14:42:40.750Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-21T14:42:40.750Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:42:40.750Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY"}}
+[debug] [2022-05-21T14:42:40.752Z] [runtime-status] [7221] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-21T14:42:40.752Z] [runtime-status] [7221] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Running api in signature http"}}
+[debug] [2022-05-21T14:42:40.752Z] [runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:42:40.753Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-21T14:42:40.754Z] [functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=69798, mapping to path=/payment/create?total=69798 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=69798, mapping to path=/payment/create?total=69798"}}
+[debug] [2022-05-21T14:42:40.757Z] [runtime-status] [7221] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server handling GET request"}}
+[debug] [2022-05-21T14:42:40.758Z] [runtime-status] [7221] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-21T14:42:40.759Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE"}}
+[debug] [2022-05-21T14:42:40.759Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-21T14:43:27.216Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-21T14:43:27.217Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-21T14:43:27.217Z] Accepted request GET /amaznclone2022/us-central1/api/payment/create?total=69798 --> us-central1-api
+[debug] [2022-05-21T14:43:27.217Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-21T14:43:27.217Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: Assigning socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:43:27.217Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: BUSY"}}
+[debug] [2022-05-21T14:43:27.218Z] [runtime-status] [7221] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-21T14:43:27.218Z] [runtime-status] [7221] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Running api in signature http"}}
+[debug] [2022-05-21T14:43:27.219Z] [runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Attempting to listen to socketPath: /tmp/fire_emu_7221.sock"}}
+[debug] [2022-05-21T14:43:27.219Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-21T14:43:27.219Z] [functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=69798, mapping to path=/payment/create?total=69798 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=69798, mapping to path=/payment/create?total=69798"}}
+[debug] [2022-05-21T14:43:27.223Z] [runtime-status] [7221] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server handling GET request"}}
+[debug] [2022-05-21T14:43:27.225Z] [runtime-status] [7221] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7221] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-21T14:43:27.228Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: IDLE"}}
+[debug] [2022-05-21T14:43:27.228Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-21T14:50:18.950Z] File /home/ozer/web-dev-project/amazon-clone-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/ozer/web-dev-project/amazon-clone-app/functions/index.js changed, reloading triggers"}}
+[debug] [2022-05-21T14:50:19.951Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-05-21T14:50:19.951Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: FINISHING"}}
+[debug] [2022-05-21T14:50:19.952Z] Validating nodejs source
+[debug] [2022-05-21T14:50:20.931Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-21T14:50:20.931Z] Building nodejs source
+[debug] [2022-05-21T14:50:20.931Z] Analyzing nodejs backend spec
+[debug] [2022-05-21T14:50:20.932Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-05-21T14:50:20.938Z] File /home/ozer/web-dev-project/amazon-clone-app/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/ozer/web-dev-project/amazon-clone-app/functions/index.js changed, reloading triggers"}}
+[debug] [2022-05-21T14:50:20.939Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: exited"}}
+[debug] [2022-05-21T14:50:20.939Z] [worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-fcf2b891-d3bb-49f3-be40-8d933597110d]: FINISHED"}}
+[debug] [2022-05-21T14:50:21.041Z] Serving at port 9005
+
+[debug] [2022-05-21T14:50:21.114Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-05-21T14:50:21.119Z] shutdown requested via /__/quitquitquit
+
+[debug] [2022-05-21T14:50:21.941Z] Validating nodejs source
+[debug] [2022-05-21T14:50:22.836Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-21T14:50:22.837Z] Building nodejs source
+[debug] [2022-05-21T14:50:22.837Z] Analyzing nodejs backend spec
+[debug] [2022-05-21T14:50:22.838Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-05-21T14:50:22.954Z] Serving at port 9005
+
+[debug] [2022-05-21T14:50:23.025Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-05-21T14:50:23.030Z] shutdown requested via /__/quitquitquit
+
+[debug] [2022-05-21T14:54:51.730Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-21T14:54:51.730Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-21T14:54:51.730Z] Accepted request POST /amaznclone2022/us-central1/api/payment/create?total=12900 --> us-central1-api
+[debug] [2022-05-21T14:54:51.731Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-05-21T14:54:51.735Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-21T14:54:51.736Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-21T14:54:51.736Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-21T14:54:51.736Z] [worker-us-central1-api-53f361d8-72b2-4390-988b-8be123caac91]: Assigning socketPath: /tmp/fire_emu_8042.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-53f361d8-72b2-4390-988b-8be123caac91]: Assigning socketPath: /tmp/fire_emu_8042.sock"}}
+[debug] [2022-05-21T14:54:51.736Z] [worker-us-central1-api-53f361d8-72b2-4390-988b-8be123caac91]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-53f361d8-72b2-4390-988b-8be123caac91]: BUSY"}}
+[debug] [2022-05-21T14:54:52.435Z] [runtime-status] [8042] Functions runtime initialized. {"cwd":"/home/ozer/web-dev-project/amazon-clone-app/functions","node_version":"16.14.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Functions runtime initialized. {\"cwd\":\"/home/ozer/web-dev-project/amazon-clone-app/functions\",\"node_version\":\"16.14.2\"}"}}
+[debug] [2022-05-21T14:54:52.436Z] [runtime-status] [8042] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Disabled runtime features: undefined"}}
+[debug] [2022-05-21T14:54:52.439Z] [runtime-status] [8042] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-21T14:54:52.440Z] [runtime-status] [8042] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:54:52.443Z] [runtime-status] [8042] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-21T14:54:52.443Z] [runtime-status] [8042] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:54:52.475Z] [runtime-status] [8042] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-21T14:54:52.475Z] [runtime-status] [8042] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-05-21T14:54:52.476Z] [runtime-status] [8042] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:54:52.477Z] [runtime-status] [8042] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-21T14:54:52.477Z] [runtime-status] [8042] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-21T14:54:52.477Z] [runtime-status] [8042] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"/home/ozer/web-dev-project/amazon-clone-app/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-05-21T14:54:52.547Z] [runtime-status] [8042] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-21T14:54:52.548Z] [runtime-status] [8042] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Running api in signature http"}}
+[debug] [2022-05-21T14:54:52.551Z] [runtime-status] [8042] Attempting to listen to socketPath: /tmp/fire_emu_8042.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Attempting to listen to socketPath: /tmp/fire_emu_8042.sock"}}
+[debug] [2022-05-21T14:54:52.553Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-21T14:54:52.553Z] [functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=12900, mapping to path=/payment/create?total=12900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/amaznclone2022/us-central1/api/payment/create?total=12900, mapping to path=/payment/create?total=12900"}}
+[debug] [2022-05-21T14:54:52.559Z] [runtime-status] [8042] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Ephemeral server handling POST request"}}
+[debug] [2022-05-21T14:54:52.564Z] [runtime-status] [8042] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8042] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-21T14:54:52.566Z] [worker-us-central1-api-53f361d8-72b2-4390-988b-8be123caac91]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-53f361d8-72b2-4390-988b-8be123caac91]: IDLE"}}
+[debug] [2022-05-21T14:54:52.566Z] [work-queue] {"queueLength":0,"workRunningCount":0}
